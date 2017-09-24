@@ -17,5 +17,11 @@ namespace Converter
             Console.WriteLine("2 - перевод C -> F");
             Console.WriteLine("3 - Выход");
         }
+
+        public void ChooseOperation()
+        {
+            Console.Write("Выберите нужное действие: ");
+            choice = Convert.ToInt32(Console.ReadLine());
+        }
     }
 }
